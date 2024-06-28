@@ -11,7 +11,7 @@ jobs:
 
     steps:
    
-      - name: Check out the code
+      - name: Check out the code1
         uses: actions/checkout@v3 
 
       
