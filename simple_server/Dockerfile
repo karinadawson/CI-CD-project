@@ -22,7 +22,8 @@ WORKDIR /app
 # We run `pipenv install` to install our project's dependencies. Since we've
 # copied in our `Pipfile`, `pipenv` will use that to get a list of dependencies.
 # We include a couple of extra options suitable for deployment.
-RUN pipenv install --system --deploy
+#RUN pipenv install --system --deploy
+RUN pip install flask
 
 
 # At this point we've set up our virtual computer, but we've not _yet_ run our
